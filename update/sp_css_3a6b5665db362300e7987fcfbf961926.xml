@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>/* &#13;
+ * 	Core Owl Carousel CSS File&#13;
+ *	v1.3.2&#13;
+ */&#13;
+&#13;
+/* clearfix */&#13;
+.owl-carousel .owl-wrapper:after {&#13;
+	content: ".";&#13;
+	display: block;&#13;
+	clear: both;&#13;
+	visibility: hidden;&#13;
+	line-height: 0;&#13;
+	height: 0;&#13;
+}&#13;
+/* display none until init */&#13;
+.owl-carousel{&#13;
+	display: none;&#13;
+	position: relative;&#13;
+	width: 100%;&#13;
+	-ms-touch-action: pan-y;&#13;
+}&#13;
+.owl-carousel .owl-wrapper{&#13;
+	display: none;&#13;
+	position: relative;&#13;
+	-webkit-transform: translate3d(0px, 0px, 0px);&#13;
+}&#13;
+.owl-carousel .owl-wrapper-outer{&#13;
+	overflow: hidden;&#13;
+	position: relative;&#13;
+	width: 100%;&#13;
+}&#13;
+.owl-carousel .owl-wrapper-outer.autoHeight{&#13;
+	-webkit-transition: height 500ms ease-in-out;&#13;
+	-moz-transition: height 500ms ease-in-out;&#13;
+	-ms-transition: height 500ms ease-in-out;&#13;
+	-o-transition: height 500ms ease-in-out;&#13;
+	transition: height 500ms ease-in-out;&#13;
+}&#13;
+	&#13;
+.owl-carousel .owl-item{&#13;
+	float: left;&#13;
+}&#13;
+.owl-controls .owl-page,&#13;
+.owl-controls .owl-buttons div{&#13;
+	cursor: pointer;&#13;
+}&#13;
+.owl-controls {&#13;
+	-webkit-user-select: none;&#13;
+	-khtml-user-select: none;&#13;
+	-moz-user-select: none;&#13;
+	-ms-user-select: none;&#13;
+	user-select: none;&#13;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);&#13;
+}&#13;
+&#13;
+/* mouse grab icon */&#13;
+.grabbing { &#13;
+    cursor:url(grabbing.png) 8 8, move;&#13;
+}&#13;
+&#13;
+/* fix */&#13;
+.owl-carousel  .owl-wrapper,&#13;
+.owl-carousel  .owl-item{&#13;
+	-webkit-backface-visibility: hidden;&#13;
+	-moz-backface-visibility:    hidden;&#13;
+	-ms-backface-visibility:     hidden;&#13;
+  -webkit-transform: translate3d(0,0,0);&#13;
+  -moz-transform: translate3d(0,0,0);&#13;
+  -ms-transform: translate3d(0,0,0);&#13;
+}&#13;
+&#13;
+</css>
+        <name>ITL.owl.carousel.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 14:39:12</sys_created_on>
+        <sys_id>3a6b5665db362300e7987fcfbf961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITL.owl.carousel.css</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sp_css_3a6b5665db362300e7987fcfbf961926</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 14:39:12</sys_updated_on>
+    </sp_css>
+</record_update>

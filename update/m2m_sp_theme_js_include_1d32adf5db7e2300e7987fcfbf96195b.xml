@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_js_include">
+    <m2m_sp_theme_js_include action="INSERT_OR_UPDATE">
+        <order>620</order>
+        <sp_js_include display_value="ITL bootstrap.touchspin.js">c4126d39db7e2300e7987fcfbf9619a1</sp_js_include>
+        <sp_theme display_value="ITL Theme">12495225db362300e7987fcfbf961964</sp_theme>
+        <sys_class_name>m2m_sp_theme_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-05 05:07:16</sys_created_on>
+        <sys_id>1d32adf5db7e2300e7987fcfbf96195b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ITL bootstrap.touchspin.js.ITL Theme</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>m2m_sp_theme_js_include_1d32adf5db7e2300e7987fcfbf96195b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-05 05:07:22</sys_updated_on>
+    </m2m_sp_theme_js_include>
+</record_update>

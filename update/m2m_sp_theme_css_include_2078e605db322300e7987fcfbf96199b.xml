@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include">
+    <m2m_sp_theme_css_include action="INSERT_OR_UPDATE">
+        <order>700</order>
+        <sp_css_include display_value="songdaiduong - style">4e582e45db322300e7987fcfbf961953</sp_css_include>
+        <sp_theme display_value="songdaiduong - theme">d5404005dbb22300e7987fcfbf9619f6</sp_theme>
+        <sys_class_name>m2m_sp_theme_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-03 02:18:41</sys_created_on>
+        <sys_id>2078e605db322300e7987fcfbf96199b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>songdaiduong - style.songdaiduong - theme</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>m2m_sp_theme_css_include_2078e605db322300e7987fcfbf96199b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-03 02:26:01</sys_updated_on>
+    </m2m_sp_theme_css_include>
+</record_update>

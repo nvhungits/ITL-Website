@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>/*Dropdownhover v1.0.0*/.dropdown .dropdown-menu .caret{border:4px solid transparent;border-left-color:#000;float:right;margin-top:6px}.dropdown-menu{min-width:250px}.dropdown-menu &gt; li.open &gt; a{background-color:#F5F5F5;color:#262626;text-decoration:none}.dropdown-menu .dropdown-menu{left:100%;margin:0;right:auto;top:-1px}.dropdown-menu-right .dropdown-menu,.navbar-right .dropdown-menu .dropdown-menu,.pull-right .dropdown-menu .dropdown-menu{left:auto;right:100%}.dropdown-menu.animated{-webkit-animation-duration:0.3s;animation-duration:0.3s}.dropdown-menu.animated:before{content:" ";display:block;height:100%;left:0;position:absolute;top:0;width:100%;z-index:99}.dropdownhover-top{margin-bottom:2px;margin-top:0}.navbar-fixed-bottom .dropdown-menu .dropdown-menu,.dropdownhover-top .dropdown-menu{bottom:-1px;top:auto}.navbar-nav &gt; li &gt; .dropdown-menu{margin-bottom:0}.dropdownhover-bottom{-webkit-transform-origin:50% 0;transform-origin:50% 0}.dropdownhover-left{-webkit-transform-origin:100% 50%;transform-origin:100% 50%}.dropdownhover-right{-webkit-transform-origin:0 50%;transform-origin:0 50%}.dropdownhover-top{-webkit-transform-origin:50% 100%;transform-origin:50% 100%}/*material-icons*/@font-face {font-family: 'Material Icons';font-style: normal;font-weight: 400;src: url(../fonts/MaterialIcons-Regular.eot);src: local('Material Icons'),local('MaterialIcons-Regular'),url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),url(../fonts/MaterialIcons-Regular.woff) format('woff'),url(../fonts/MaterialIcons-Regular.ttf) format('truetype');}&#13;
+.material-icons {font-family: 'Material Icons';font-weight: normal;font-style: normal;font-size: 24px;display: inline-block;line-height: 1;text-transform: none;letter-spacing: normal;word-wrap: normal;white-space: nowrap;  direction: ltr;-webkit-font-smoothing: antialiased;text-rendering: optimizeLegibility;-moz-osx-font-smoothing: grayscale;font-feature-settings: 'liga';}&#13;
+/* owl-carousel v1.3.3 */&#13;
+.owl-carousel .owl-wrapper:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}&#13;
+.owl-carousel{display: none;position: relative;width: 100%;-ms-touch-action: pan-y;}&#13;
+.owl-carousel .owl-wrapper{display: none;position: relative;-webkit-transform: translate3d(0px, 0px, 0px);}&#13;
+.owl-carousel .owl-wrapper-outer{overflow: hidden;position: relative;width: 100%;}&#13;
+.owl-carousel .owl-wrapper-outer.autoHeight{-webkit-transition: height 500ms ease-in-out;-moz-transition: height 500ms ease-in-out;-ms-transition: height 500ms ease-in-out;-o-transition: height 500ms ease-in-out;transition: height 500ms ease-in-out;}&#13;
+.owl-carousel .owl-item{float: left;}&#13;
+.owl-controls .owl-page,&#13;
+.owl-controls .owl-buttons div{cursor: pointer;}&#13;
+.owl-controls {-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}&#13;
+.grabbing {cursor:url(../images/grabbing.png) 8 8, move;}&#13;
+.owl-carousel .owl-wrapper,&#13;
+.owl-carousel .owl-item{-webkit-backface-visibility: hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform: translate3d(0,0,0);-moz-transform: translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}&#13;
+.owl-theme .owl-controls{margin-top: 10px;text-align: center;}&#13;
+.owl-theme .owl-controls .owl-buttons div{color: #FFF;display: inline-block;zoom: 1;*display: inline;/*IE7 life-saver */margin: 5px;padding: 3px 10px;font-size: 12px;-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;background: #869791;filter: Alpha(Opacity=50);/*IE7 fix*/opacity: 0.5;}&#13;
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{filter: Alpha(Opacity=100);/*IE7 fix*/opacity: 1;text-decoration: none;}&#13;
+.owl-theme .owl-controls .owl-page{display: inline-block;zoom: 1;*display: inline;}&#13;
+.owl-theme .owl-controls .owl-page span{display: block;width: 12px;height: 12px;margin: 5px 7px;filter: Alpha(Opacity=50);/*IE7 fix*/opacity: 0.5;-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;background: #869791;}&#13;
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{filter: Alpha(Opacity=100);/*IE7 fix*/opacity: 1;}&#13;
+.owl-theme .owl-controls .owl-page span.owl-numbers{height: auto;width: auto;color: #FFF;padding: 2px 10px;font-size: 12px;-webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;}&#13;
+.owl-item.loading{min-height: 150px;background: url(AjaxLoader.gif) no-repeat center center;}</css>
+        <name>songdaiduong.merge-style.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-03 02:26:55</sys_created_on>
+        <sys_id>574aa2c5db322300e7987fcfbf96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>songdaiduong.merge-style.css</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sp_css_574aa2c5db322300e7987fcfbf96194b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-03 02:26:55</sys_updated_on>
+    </sp_css>
+</record_update>

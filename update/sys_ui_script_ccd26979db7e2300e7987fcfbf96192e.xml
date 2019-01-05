@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_86794_website.ITL.layerslider-init.js</name>
+        <script><![CDATA[var LayersliderInit = function () {
+
+    return {
+        initLayerSlider: function () {
+            $('#layerslider').layerSlider({
+                skinsPath : '../../assets/global/plugins/slider-layer-slider/skins/',
+                skin : 'fullwidth',
+                thumbnailNavigation : 'hover',
+                hoverPrevNext : false,
+                responsive : false,
+                responsiveUnder : 960,
+                layersContainer : 960
+            });
+        }
+    };
+
+}();]]></script>
+        <script_name>ITL.layerslider-init.js</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-05 05:10:23</sys_created_on>
+        <sys_id>ccd26979db7e2300e7987fcfbf96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_86794_website.ITL.layerslider-init.js</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sys_ui_script_ccd26979db7e2300e7987fcfbf96192e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-05 05:10:23</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

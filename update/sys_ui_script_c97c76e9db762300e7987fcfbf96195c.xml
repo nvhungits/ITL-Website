@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_86794_website.ITL.revo-slider-init.js</name>
+        <script><![CDATA[var RevosliderInit = function () {
+
+    return {
+        initRevoSlider: function () {
+                  jQuery('.fullwidthabnner').show().revolution({ 
+                      delay:2000,
+                      startheight:417,
+                      startwidth:1150,
+
+                      hideThumbs:10,
+
+                      thumbWidth:100,                         // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+                      thumbHeight:50,
+                      thumbAmount:5,
+
+                      navigationType:"bullet",                // bullet, thumb, none
+                      navigationArrows:"solo",                // nexttobullets, solo (old name verticalcentered), none
+
+                      navigationStyle:"round",                // round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+                      navigationHAlign:"center",              // Vertical Align top,center,bottom
+                      navigationVAlign:"bottom",              // Horizontal Align left,center,right
+                      navigationHOffset:0,
+                      navigationVOffset:20,
+
+                      soloArrowLeftHalign:"left",
+                      soloArrowLeftValign:"center",
+                      soloArrowLeftHOffset:20,
+                      soloArrowLeftVOffset:0,
+
+                      soloArrowRightHalign:"right",
+                      soloArrowRightValign:"center",
+                      soloArrowRightHOffset:20,
+                      soloArrowRightVOffset:0,
+
+                      touchenabled:"on",                      // Enable Swipe Function : on/off
+                      onHoverStop:"on",                       // Stop Banner Timet at Hover on Slide on/off
+
+                      stopAtSlide:-1,
+                      stopAfterLoops:-1,
+
+                      hideCaptionAtLimit:0,         // It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+                      hideAllCaptionAtLilmit:0,       // Hide all The Captions if Width of Browser is less then this value
+                      hideSliderAtLimit:0,          // Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+                      shadow:1,                               //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
+                      fullWidth:"on"                          // Turns On or Off the Fullwidth Image Centering in FullWidth Modus
+                  });
+        }
+    };
+
+}();]]></script>
+        <script_name>ITL.revo-slider-init.js</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 17:03:31</sys_created_on>
+        <sys_id>c97c76e9db762300e7987fcfbf96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_86794_website.ITL.revo-slider-init.js</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sys_ui_script_c97c76e9db762300e7987fcfbf96195c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 17:03:31</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

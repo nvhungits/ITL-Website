@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>/* BEDIN LAYER SLIDER */&#13;
+.ls-ct-half, .ls-ct-center {&#13;
+    border-radius: 100px !important;&#13;
+}&#13;
+.ls-fullwidth .ls-nav-prev,&#13;
+.ls-fullwidth .ls-nav-next {&#13;
+	opacity: 0.7;&#13;
+}&#13;
+.ls-fullwidth .ls-nav-prev:hover,&#13;
+.ls-fullwidth .ls-nav-next:hover {&#13;
+	opacity: 1;&#13;
+}&#13;
+&#13;
+/* slide 1 */&#13;
+.ls-slide1 .ls-title {&#13;
+	font: 60px/66px 'Source Sans Pro', Arial, sans-serif;&#13;
+	color: #fff;&#13;
+	border-bottom: solid 1px rgba(255,255,255,0.5) !important;&#13;
+	text-transform: uppercase;&#13;
+	text-align: center;&#13;
+	padding-bottom: 19px;&#13;
+}&#13;
+.ls-slide1 .ls-title strong {&#13;
+	color: #e6400c;&#13;
+	display: block;&#13;
+	font-weight: 600;&#13;
+}&#13;
+.ls-slide1 .ls-mini-text {&#13;
+	font: 400 23px 'Source Sans Pro', Arial, sans-serif;&#13;
+	color: #fff;&#13;
+	text-align: center;&#13;
+}&#13;
+&#13;
+/* slide 2 */&#13;
+.ls-slide2 .ls-title {&#13;
+	font: 25px 'Source Sans Pro', Arial, sans-serif;&#13;
+	color: #fff;&#13;
+	text-align: center;&#13;
+	line-height: 1.2 !important;&#13;
+}&#13;
+.ls-slide2 .ls-title strong,&#13;
+.ls-slide2 .ls-title em {&#13;
+	display: block;&#13;
+	font-weight: 300;&#13;
+	padding-top: 9px;&#13;
+}&#13;
+.ls-slide2 .ls-title strong {&#13;
+	font-size: 360%;&#13;
+}&#13;
+.ls-slide2 .ls-title em {&#13;
+	font-size: 200%;&#13;
+	font-style: normal;&#13;
+	padding-top: 5px;&#13;
+}&#13;
+.ls-slide2 .ls-price {&#13;
+	font: 300 20px 'Open Sans', sans-serif;&#13;
+	color: #fff;&#13;
+	text-align: center;&#13;
+	background: rgba(230,64,12,0.9);&#13;
+	border-radius: 190px !important;&#13;
+	overflow: hidden;&#13;
+	width: 177px;&#13;
+	height: 177px;&#13;
+	display: table-cell;&#13;
+	vertical-align: middle;&#13;
+}&#13;
+.ls-slide2 .ls-price b {&#13;
+	display: block;&#13;
+	font-weight: normal;&#13;
+	padding-top: 15%;&#13;
+}&#13;
+.ls-slide2 .ls-price strong {&#13;
+	font: 300 425%/1 'Source Sans Pro', Arial, sans-serif;&#13;
+	font-weight: 300;&#13;
+}&#13;
+.ls-slide2 .ls-price strong span {&#13;
+	font-size: 30px;&#13;
+}&#13;
+.ls-slide2 .ls-more {&#13;
+	color: #fff;&#13;
+	display: inline-block;&#13;
+	border: solid 1px #fff;&#13;
+	font: 300 18px 'Open Sans', sans-serif;&#13;
+	padding: 7px 20px 8px;&#13;
+}&#13;
+.ls-slide2 .ls-more:hover {&#13;
+	text-decoration: none;&#13;
+	color: #fff;&#13;
+	background: #e6400c;&#13;
+	border-color: #e6400c;&#13;
+}&#13;
+&#13;
+/* slide 3 */&#13;
+.ls-slide3 .ls-title {&#13;
+	font: 300 46px/59px 'Source Sans Pro', Arial, sans-serif;&#13;
+	color: #fff;&#13;
+	border-bottom: solid 1px #b90010 !important;&#13;
+	text-align: center;&#13;
+	padding-bottom: 27px;&#13;
+}&#13;
+.ls-slide3 .ls-title strong {&#13;
+	display: block;&#13;
+	font-weight: 600;&#13;
+}&#13;
+.ls-slide3 .ls-buy {&#13;
+	color: #fff;&#13;
+	border: solid 5px rgba(55,0,5,0.6);&#13;
+	padding: 12px 20px 8px;&#13;
+	background: #d11018;&#13;
+	float: left;&#13;
+	margin-right: 20px;&#13;
+}&#13;
+.ls-slide3 .ls-buy:hover {&#13;
+	text-decoration: none;&#13;
+	color: #fff;&#13;
+	border-color: rgba(255,255,255,0.6);&#13;
+}&#13;
+.ls-slide3 .ls-price {&#13;
+	font: 400 75%/1 'Source Sans Pro', Arial, sans-serif;&#13;
+	color: #fff;&#13;
+	float: left;&#13;
+}&#13;
+.ls-slide3 .ls-price span {&#13;
+	float: left;&#13;
+	padding-top: 18px;&#13;
+	margin-right: 17px;&#13;
+}&#13;
+.ls-slide3 .ls-price strong {&#13;
+	font-weight: 200;&#13;
+	font-size: 567%;&#13;
+	top: -20px;&#13;
+	position: relative;&#13;
+	line-height: 1;&#13;
+}&#13;
+.ls-slide3 .ls-price strong sup {&#13;
+	font-size: 49%;&#13;
+	position: relative;&#13;
+	top: -16px;&#13;
+	line-height: 1;&#13;
+}&#13;
+&#13;
+/* slide 4 */&#13;
+.ls-slide4 .ls-title {&#13;
+	font: 300 68px/81px 'Source Sans Pro', Arial, sans-serif;&#13;
+	color: #fff;&#13;
+	text-align: center;&#13;
+	text-transform: uppercase;&#13;
+	border-bottom: solid 1px rgba(255,255,255,0.6);&#13;
+	padding-bottom: 27px;&#13;
+}&#13;
+.ls-slide4 .ls-mini-text {&#13;
+	font-size: 100px;&#13;
+	height: 43px;&#13;
+}&#13;
+.ls-slide4 .ls-mini-text span {&#13;
+	float: left;&#13;
+	margin-right: 13px;&#13;
+	font: 400 17% 'Open Sans', sans-serif;&#13;
+	color: #fff;&#13;
+}&#13;
+.ls-slide4 .ls-mini-text a {&#13;
+	color: #fff;&#13;
+	font: 300 20% 'Open Sans', sans-serif;&#13;
+	padding: 7px 20px 8px;&#13;
+	background: #000;&#13;
+	top: -20%;&#13;
+	position: relative;&#13;
+	float: left;&#13;
+}&#13;
+.ls-slide4 .ls-mini-text a:hover {&#13;
+	text-decoration: none;&#13;
+	color: #fff;&#13;
+	background: #e6400c;&#13;
+}</css>
+        <name>ITL.style-layer-slider.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-05 05:14:24</sys_created_on>
+        <sys_id>73b3a979db7e2300e7987fcfbf961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITL.style-layer-slider.css</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sp_css_73b3a979db7e2300e7987fcfbf961921</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-05 05:14:24</sys_updated_on>
+    </sp_css>
+</record_update>

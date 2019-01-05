@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <name>ITL style-layer-slider.css</name>
+        <source>local</source>
+        <sp_css display_value="ITL.style-layer-slider.css">73b3a979db7e2300e7987fcfbf961921</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-05 05:14:25</sys_created_on>
+        <sys_id>3eb3ad79db7e2300e7987fcfbf9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITL style-layer-slider.css</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sp_css_include_3eb3ad79db7e2300e7987fcfbf9619a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-05 05:14:25</sys_updated_on>
+        <url/>
+    </sp_css_include>
+</record_update>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>/* BEDIN REVOLUTION SLIDER */&#13;
+.revolution-slider {&#13;
+	z-index: 1;&#13;
+	position: relative;&#13;
+	border-bottom: solid 1px #eee;&#13;
+	overflow: hidden;&#13;
+	margin-bottom: 10px;&#13;
+}&#13;
+&#13;
+.fullwidthbanner-container ul {&#13;
+	list-style: none;&#13;
+	margin: 0;&#13;
+	padding: 0;&#13;
+	height: 0;&#13;
+	overflow: hidden;&#13;
+}&#13;
+.tp-bannershadow {&#13;
+	display: none;&#13;
+}&#13;
+.tp-bullets.simplebullets.round .bullet {&#13;
+	width: 12px;&#13;
+	height: 12px;&#13;
+	border-radius: 50% !important;&#13;
+	background: #d8d8d8;&#13;
+}&#13;
+.tp-bullets.simplebullets.round .bullet:hover,&#13;
+.tp-bullets.simplebullets.round .bullet.selected {&#13;
+	background: #919191;&#13;
+}&#13;
+&#13;
+.slide_title_white {&#13;
+	color: #fff;&#13;
+	text-align: center;&#13;
+	text-transform: uppercase;&#13;
+	font: 300 47px/66px "Open Sans", sans-serif;&#13;
+}&#13;
+.slide_title_white_bold {&#13;
+	font-weight: 400;&#13;
+}&#13;
+.slide_subtitle_white {&#13;
+	border-top: 1px solid #fff !important;&#13;
+	border-bottom: 1px solid #fff !important;&#13;
+	font: 300 18px/25px "Open Sans", sans-serif;&#13;
+	padding: 5px 10px;&#13;
+	color: #fff;&#13;
+	text-align: center;&#13;
+	text-transform: uppercase;&#13;
+}&#13;
+.slider-colored {&#13;
+	z-index: 1;&#13;
+	height: 495px !important;&#13;
+	position: relative;&#13;
+	border-top: solid 1px #eee;&#13;
+	border-bottom: solid 1px #eee;&#13;
+}&#13;
+.slide_title, .slide_subtitle, .slide_desc, .slide_btn{&#13;
+	-moz-box-sizing: content-box; &#13;
+	-webkit-box-sizing: content-box;&#13;
+    box-sizing: content-box;&#13;
+}&#13;
+.slide_title {&#13;
+	font: 300 47px/66px "Open Sans", sans-serif;&#13;
+	color: #3f5862;&#13;
+	text-transform: uppercase;&#13;
+}&#13;
+.slide_subtitle {&#13;
+	font: 400 18px/25px "Open Sans", sans-serif;&#13;
+	background: #E84D1C;&#13;
+	padding: 5px;&#13;
+	color: #fafafa;&#13;
+	text-transform: uppercase;&#13;
+}&#13;
+.slide_list_item {&#13;
+	font: 400 14px/20px "Open Sans", sans-serif;&#13;
+	background: #E84D1C;&#13;
+	padding: 5px;&#13;
+	color: #fafafa;&#13;
+	text-transform: uppercase;&#13;
+}&#13;
+.slide_desc {&#13;
+	color: #7b8793;&#13;
+	font-size: 14px;&#13;
+	line-height: 25px;&#13;
+}&#13;
+.slide_desc_bordered {&#13;
+	border-left: 3px solid #ddd !important; &#13;
+	padding-left: 5px;&#13;
+}&#13;
+.slide_btn {&#13;
+	font: 300 14px/14px "Open Sans", sans-serif;&#13;
+	background: #6fc561;&#13;
+	padding: 7px 15px;&#13;
+	color: #fff;&#13;
+	text-transform: uppercase;&#13;
+	cursor: pointer;&#13;
+}&#13;
+.tp-leftarrow.default,&#13;
+.tp-rightarrow.default{&#13;
+	opacity: 0.7;&#13;
+}&#13;
+.tp-leftarrow.default:hover,&#13;
+.tp-rightarrow.default:hover {&#13;
+	opacity: 1;&#13;
+}&#13;
+.revolution-slider .hidearrows {&#13;
+	opacity: 0;&#13;
+}</css>
+        <name>ITL.style-revolution-slider.css</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 14:44:04</sys_created_on>
+        <sys_id>049c16a5db362300e7987fcfbf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITL.style-revolution-slider.css</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sp_css_049c16a5db362300e7987fcfbf9619de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 14:44:04</sys_updated_on>
+    </sp_css>
+</record_update>

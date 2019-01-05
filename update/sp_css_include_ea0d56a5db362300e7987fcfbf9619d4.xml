@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <name>ITL.custom.css</name>
+        <source>local</source>
+        <sp_css display_value="ITL.custom.css">abfcdaa5db362300e7987fcfbf96196c</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 14:45:50</sys_created_on>
+        <sys_id>ea0d56a5db362300e7987fcfbf9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITL.custom.css</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sp_css_include_ea0d56a5db362300e7987fcfbf9619d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 14:45:50</sys_updated_on>
+        <url/>
+    </sp_css_include>
+</record_update>

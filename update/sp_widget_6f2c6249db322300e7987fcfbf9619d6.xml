@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>songdaiduong - Slider</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-03 02:35:16</sys_created_on>
+        <sys_id>6f2c6249db322300e7987fcfbf9619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>songdaiduong - Slider</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sp_widget_6f2c6249db322300e7987fcfbf9619d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-03 02:35:16</sys_updated_on>
+        <template><![CDATA[<!-- Slider Starts -->
+<section class="header-outer header-outer2">
+  <div class="header-slider header-slider2">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="item" style="background-image: url(images/posc_template/slider/slider_background_1511603821.jpg);  background-repeat: no-repeat; background-position: top; background-size: cover;">
+          <div class="container">
+            <div class="caption">
+              <div class="caption-outer"><div class="col-lg-6 ">
+                </div>
+                <div class="col-lg-6 text-right">
+                  <h3>new arrivals </h3>
+                  <h2 style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInUp;" class="wow slideInUp" data-wow-delay="0ms" data-wow-duration="1500ms">spring summer <span>2017</span></h2>
+                  <p style="visibility: visible; animation-name: fadeInRight;" class="wow fadeInRight">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                  <a data-scroll="" class="btn shop-now animated fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" href="">Shop now</a>
+                  <a data-scroll="" class="btn shop-now animated fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" href="">Discover</a>
+                </div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" style="background-image: url(images/posc_template/slider/slider_background_1511605619.jpg);  background-repeat: no-repeat; background-position: top; background-size: cover;">
+          <div class="container">
+            <div class="caption">
+              <div class="caption-outer"><div class="col-lg-6 ">
+                </div>
+                <div class="col-lg-6 text-right">
+                  <h3>new arrivals </h3>
+                  <h2 style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInUp;" class="wow slideInUp" data-wow-delay="0ms" data-wow-duration="1500ms">spring summer <span>2017</span></h2>
+                  <p style="visibility: visible; animation-name: fadeInRight;" class="wow fadeInRight">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                  <a data-scroll="" class="btn shop-now animated fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" href="">Shop now</a>
+                  <a data-scroll="" class="btn shop-now animated fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" href="">Discover</a>
+                </div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item active" style="background-image: url(images/posc_template/slider/slider_background_1511605637.jpg);  background-repeat: no-repeat; background-position: top; background-size: cover;">
+          <div class="container">
+            <div class="caption">
+              <div class="caption-outer"><div class="col-lg-6 ">
+                </div>
+                <div class="col-lg-6 text-right">
+                  <h3>new arrivals </h3>
+                  <h2 style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInUp;" class="wow slideInUp" data-wow-delay="0ms" data-wow-duration="1500ms">spring summer <span>2017</span></h2>
+                  <p style="visibility: visible; animation-name: fadeInRight;" class="wow fadeInRight">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                  <a data-scroll="" class="btn shop-now animated fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" href="">Shop now</a>
+                  <a data-scroll="" class="btn shop-now animated fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms" href="">Discover</a>
+                </div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="home-slider" data-slide-to="0" class=""></li>
+        <li data-target="home-slider" data-slide-to="1" class=""></li>
+        <li data-target="home-slider" data-slide-to="2" class="active"></li>
+      </ol>
+      <!-- /indicators -->
+    </div>
+  </div>
+</section>
+<!-- Slider Ends Here -->]]></template>
+    </sp_widget>
+</record_update>

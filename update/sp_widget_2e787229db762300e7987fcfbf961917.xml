@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>standard</category>
+        <client_script><![CDATA[function() {
+	/* widget controller */
+	var c = this;
+	//console.log("data.slides", c.data.slides);
+	LayersliderInit.initLayerSlider();
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance_carousel</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>interval</field_list>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>ITL Carousel widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[/*
+data.slides = [];
+
+data.slides.push({
+	transition: "fade",
+	slotamount: 8,
+	masterspeed: 700,
+	delay: 9400,
+	thumbImage: "",
+	bgImage: "",
+	items: [
+		{
+			x: 30,
+			y: 90,
+			speed: 400,
+			start: 1500,
+			easing: "easeOutExpo",
+			text: "Explore the Power"
+		},
+		{
+			x: 30,
+			y: 90,
+			speed: 400,
+			start: 1500,
+			easing: "easeOutExpo",
+			text: "Explore the Power"
+		}
+	]
+});
+*/]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 16:45:42</sys_created_on>
+        <sys_id>2e787229db762300e7987fcfbf961917</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>ITL Carousel widget</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sp_widget_2e787229db762300e7987fcfbf961917</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-05 05:37:58</sys_updated_on>
+        <template><![CDATA[<!-- BEGIN SLIDER -->
+<div class="page-slider margin-bottom-35">
+  <!-- LayerSlider start -->
+  <div id="layerslider" style="width: 100%; height: 494px; margin: 0 auto;">
+
+    <!-- slide one start -->
+    <div class="ls-slide ls-slide1" data-ls="offsetxin: right; slidedelay: 7000; transition2d: 24,25,27,28;">
+
+      <img src="ITL-Slider.bg1.jpg" class="ls-bg" alt="Slide background">
+
+      <div class="ls-l ls-title" style="top: 96px; left: 35%; white-space: nowrap;" data-ls="
+                                                                                             fade: true; 
+                                                                                             fadeout: true; 
+                                                                                             durationin: 750; 
+                                                                                             durationout: 750; 
+                                                                                             easingin: easeOutQuint; 
+                                                                                             rotatein: 90; 
+                                                                                             rotateout: -90; 
+                                                                                             scalein: .5; 
+                                                                                             scaleout: .5; 
+                                                                                             showuntil: 4000;
+                                                                                             ">Biển Sầm Sơn<strong>FLC</strong> Sân Golf</div>
+
+      <div class="ls-l ls-mini-text" style="top: 338px; left: 35%; white-space: nowrap;" data-ls="
+                                                                                                  fade: true; 
+                                                                                                  fadeout: true; 
+                                                                                                  durationout: 750; 
+                                                                                                  easingin: easeOutQuint; 
+                                                                                                  delayin: 300; 
+                                                                                                  showuntil: 4000;
+                                                                                                  ">Sạch sẽ<br > đẹp và sang trọng.
+      </div>
+    </div>
+    <!-- slide one end -->
+
+    <!-- slide three start -->
+    <div class="ls-slide ls-slide3" data-ls="offsetxin: right; slidedelay: 7000; transition2d: 92,93,105;">
+
+      <img src="ITL-Slider.bg2.jpg" class="ls-bg" alt="Slide background">
+
+      <div class="ls-l ls-title" style="top: 83px; left: 33%; white-space: nowrap;" data-ls="
+                                                                                             fade: true; 
+                                                                                             fadeout: true; 
+                                                                                             durationin: 750; 
+                                                                                             durationout: 750; 
+                                                                                             easingin: easeOutQuint; 
+                                                                                             rotatein: 90; 
+                                                                                             rotateout: -90; 
+                                                                                             scalein: .5; 
+                                                                                             scaleout: .5; 
+                                                                                             showuntil: 4000;
+                                                                                             ">Đền Độc Cước &amp; Hòn Trống Mái <strong>Di tích</strong> Lịch Sử hàng ngàn năm
+      </div>
+      <div class="ls-l" style="top: 333px; left: 33%; white-space: nowrap; font-size: 20px; font: 20px 'Open Sans Light', sans-serif;" data-ls="
+                                                                                                                                                fade: true; 
+                                                                                                                                                fadeout: true; 
+                                                                                                                                                durationout: 750; 
+                                                                                                                                                easingin: easeOutQuint; 
+                                                                                                                                                delayin: 300; 
+                                                                                                                                                scalein: .8; 
+                                                                                                                                                scaleout: .8; 
+                                                                                                                                                showuntil: 4000;
+                                                                                                                                                ">
+        <a href="javascript:;" class="ls-buy">
+          Đăng ký
+        </a>
+        <div class="ls-price">
+          <span>Tất cả chỉ:</span>
+          <strong>100.000<sup>VNĐ</sup></strong>
+        </div>
+      </div>
+    </div>
+    <!-- slide three end -->
+
+    <!-- slide four start -->
+    <div class="ls-slide ls-slide4" data-ls="offsetxin: right; slidedelay: 7000; transition2d: 110,111,112,113;">
+
+      <img src="ITL-Slider.bg3.jpg" class="ls-bg" alt="Slide background">
+
+      <div class="ls-l ls-title" style="top: 35%; left: 60%; white-space: nowrap;" data-ls="
+                                                                                            fade: true; 
+                                                                                            fadeout: true; 
+                                                                                            durationin: 750; 
+                                                                                            durationout: 750; 
+                                                                                            easingin: easeOutQuint; 
+                                                                                            rotatein: 90; 
+                                                                                            rotateout: -90; 
+                                                                                            scalein: .5; 
+                                                                                            scaleout: .5; 
+                                                                                            showuntil: 4000;">
+        Đền Bà Triều<br>
+        Linh Thiêng
+      </div>
+
+      <div class="ls-l ls-mini-text" style="top: 70%; left: 60%; white-space: nowrap;" data-ls="
+                                                                                                fade: true; 
+                                                                                                fadeout: true;  
+                                                                                                durationout: 750; 
+                                                                                                easingin: easeOutQuint; 
+                                                                                                delayin: 300; 
+                                                                                                scalein: .8; 
+                                                                                                scaleout: .8; 
+                                                                                                showuntil: 4000;">
+        <span>Tôn nghiêm</span>
+        <a href="javascript:;">Đăng ký ngay!</a>
+      </div>
+
+    </div>
+    <!-- slide four end -->
+  </div>
+  <!-- LayerSlider end -->
+</div>
+<!-- END SLIDER -->]]></template>
+    </sp_widget>
+</record_update>

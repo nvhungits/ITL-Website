@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+	var c = this;
+
+	$scope.$watch('data.menu.items', function() {
+		$scope.visibleItems = [];
+		if ($scope.data.menu.items) {
+			for (var i in $scope.data.menu.items) {
+				var item = $scope.data.menu.items[i];
+				if (item.items || (item.scriptedItems && item.scriptedItems.count != 0))
+					$scope.visibleItems.push(item);
+			}
+		}
+		console.log($scope.visibleItems);
+	}, true);
+
+	// Get list of record watchers
+	var record_watchers = [];
+	if ($scope.data.menu.items) {
+		for(var i in $scope.data.menu.items) {
+			var item = $scope.data.menu.items[i];
+			if (item.type == 'scripted') {
+				if (item.scriptedItems.record_watchers)
+					record_watchers = record_watchers.concat(item.scriptedItems.record_watchers);
+			}
+			if (item.type == 'filtered') {
+				record_watchers.push({'table':item.table,'filter':item.filter});
+			}
+		}
+	}
+
+	// Init record watchers
+	for (var y in record_watchers){
+		var watcher = record_watchers[y];
+		spUtil.recordWatch($scope, watcher.table, watcher.filter);
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>ITL Main Menu Widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var menu_id = $sp.getValue('sys_id'); // instance sys_id
+	var gr = new GlideRecord('sp_instance_menu');
+	gr.get(menu_id);
+	data.menu = {};
+	data.menu.name = gr.getDisplayValue();
+	data.menu.items = $sp.getMenuItems(menu_id);
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 14:56:49</sys_created_on>
+        <sys_id>877fd629db362300e7987fcfbf961921</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>ITL Main Menu Widget</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sp_widget_877fd629db362300e7987fcfbf961921</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 16:38:42</sys_updated_on>
+        <template><![CDATA[<ul>
+
+  <li ng-class="{'dropdown': item.items.length > 0, 'dropdown-megamenu': item.glyph != ''}" ng-repeat="item in visibleItems">
+
+    <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="javascript:;">
+      {{item.label.toUpperCase()}} 
+    </a>
+
+    <ul class="dropdown-menu" ng-if="item.items.length > 0">
+      
+      <!-- megamenu -->
+      <li ng-if="item.glyph != ''">
+        <div class="header-navigation-content">
+          <div class="row">
+            <div class="col-md-4 header-navigation-col" ng-repeat="subitem in item.items">
+              <h4>{{subitem.label.toUpperCase()}}</h4>
+              <ul ng-if="subitem.items.length > 0">
+                <li ng-repeat="subitem_2 in subitem.items"><a href="index.html">{{subitem_2.label}}</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+      
+      <!-- default menu -->
+      <li ng-class="{'dropdown-submenu': subitem.items.length > 0}" ng-repeat="subitem in item.items" ng-if="item.glyph == ''">
+        <a href="index.html">{{subitem.label}} <i ng-if="subitem.items.length > 0" class="fa fa-angle-right"></i></a>
+        <ul class="dropdown-menu" role="menu" ng-if="subitem.items.length > 0">
+          <li class="dropdown-submenu" ng-repeat="subitem_2 in subitem.items">
+            <a ng-class="{'dropdown-toggle': subitem_2.items.length > 0}" data-toggle="dropdown" data-target="#" href="javascript:;">
+              {{subitem_2.label}} 
+              <i ng-if="subitem_2.items.length > 0" class="fa fa-angle-right"></i>
+            </a>
+            <ul class="dropdown-menu" ng-if="subitem_2.items.length > 0">
+              <li ng-repeat="subitem_3 in subitem_2.items"><a href="index.html">{{subitem_3.label}}</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      
+      
+    </ul>
+
+  </li>
+
+</ul>]]></template>
+    </sp_widget>
+</record_update>

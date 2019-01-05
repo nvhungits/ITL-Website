@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <name>ITL Font Open Sans</name>
+        <source>local</source>
+        <sp_css display_value="ITL.font.open.sans">da8ada25db362300e7987fcfbf961952</sp_css>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-04 14:32:49</sys_created_on>
+        <sys_id>daf95a25db362300e7987fcfbf9619d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ITL Font Open Sans</sys_name>
+        <sys_package display_value="website" source="x_86794_website">f36f73f0dbb22300e7987fcfbf9619bd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="website">f36f73f0dbb22300e7987fcfbf9619bd</sys_scope>
+        <sys_update_name>sp_css_include_daf95a25db362300e7987fcfbf9619d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-04 14:35:09</sys_updated_on>
+        <url/>
+    </sp_css_include>
+</record_update>
